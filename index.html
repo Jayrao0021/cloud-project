@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karnavati University Event Registration</title>
+</head>
+<body>
+
+<h2>Karnavati University Event Registration</h2>
+
+<form action="submit.php" method="POST">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="text" name="phone" required><br><br>
+
+    <label>Event:</label><br>
+    <select name="event" required>
+        <option value="Tech Fest">Tech Fest</option>
+        <option value="Cultural Fest">Cultural Fest</option>
+        <option value="Workshop">Workshop</option>
+    </select><br><br>
+
+    <label>Department:</label><br>
+    <input type="text" name="department" required><br><br>
+
+    <label>Year:</label><br>
+    <select name="year" required>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+    </select><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <label>Comments:</label><br>
+    <textarea name="comments"></textarea><br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
